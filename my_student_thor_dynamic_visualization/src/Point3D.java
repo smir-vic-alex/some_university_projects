@@ -1,0 +1,36 @@
+/**
+ * Created by Виктор on 11.03.2015.
+ */
+
+/**
+ * Точка в пространстве
+ */
+public class Point3D {
+    private double x;
+    private double y;
+    private double z;
+
+    public double getX() {
+        return x;
+    }
+
+    public void setX(double x) {
+        this.x = x;
+    }
+
+    public double getY() {
+        return y;
+    }
+
+    public void setY(double y) {
+        this.y = y;
+    }
+
+    public double getZ() {
+        return z;
+    }
+
+    public void setZ(double z) {
+        this.z = z;
+    }
+}
